@@ -56,7 +56,7 @@ On your page you can now use html like this:
 
 // example or use it
 @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent-bottom";
-@import "./node_modules/vue-cookieconsent-component/src/scss/scss/cookie-consent-transition";
+@import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent-transition";
 ```
 
 Do you like my theme but not the colors or paddings, ...?
