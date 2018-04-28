@@ -1,0 +1,28 @@
+@import "cookie-consent-variables";
+
+.cookie-consent {
+  position: $cookieconstent-position;
+  z-index: $cookieconstent-z-index;
+  width: $cookieconstent-width;
+  padding: $cookieconstent-padding;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  background: $cookieconstent-background;
+
+  &-message,
+  &-compliance {
+    margin: $cookieconstent-space;
+  }
+
+  &-compliance {
+    cursor: pointer;
+    color: $cookieconstent-compliance-color;
+    padding: $cookieconstent-compliance-padding;
+    background: $cookieconstent-compliance-background;
+    border: $cookieconstent-compliance-border;
+  }
+}

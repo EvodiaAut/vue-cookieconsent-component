@@ -1,0 +1,9 @@
+.cookie-consent-transition {
+  &-leave-active {
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.75,0,0,1);
+  }
+  &-leave-to {
+    transform: translateY(100%);
+  }
+}
