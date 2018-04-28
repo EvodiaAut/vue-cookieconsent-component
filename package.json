@@ -1,6 +1,6 @@
 {
   "name": "vue-cookieconsent-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue Cookieconsent",
   "author": "EvodiaAut <evodia.aut@gmail.com>",
   "main": "src/index.js",
