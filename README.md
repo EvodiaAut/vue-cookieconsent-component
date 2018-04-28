@@ -61,13 +61,12 @@ On your page you can now use html like this:
 
 Do you like my theme but not the colors or paddings, ...?
 
-Find more variables in /src/scss/_cookie-consent-variables.scss
-
 ```scss
 // overwrite variables
 $cookieconstent-padding: 1rem;
 $cookieconstent-spacers: .7rem;
 $cookieconstent-compliance-padding: .5rem 2rem;
+// find more variables in /src/scss/_cookie-consent-variables.scss
 
 @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent";
 ```
