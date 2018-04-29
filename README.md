@@ -1,12 +1,12 @@
 # vue-cookieconsent-component
 
-[Inspired by cookieconsent](https://github.com/insites/cookieconsent/)
-
 > Vue Cookieconsent
 
 [![npm](https://img.shields.io/npm/v/vue-cookieconsent-component.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-cookieconsent-component)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](https://github.com/EvodiaAut/vue-cookieconsent-component/blob/master/LICENSE.md)
 [![npm](https://img.shields.io/npm/dt/vue-cookieconsent-component.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-cookieconsent-component)
+
+[Inspired by cookieconsent](https://github.com/insites/cookieconsent/)
 
 ## Demo
 
@@ -45,6 +45,7 @@ export default {
 On your page you can now use html like this:
 
 ```html
+// see slots or props if you want to extend something
 <cookie-consent/>
 ```
 
@@ -53,7 +54,6 @@ On your page you can now use html like this:
 ```scss
 // required and to get updates
 @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent";
-
 // example or use it
 @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent-bottom";
 @import "./node_modules/vue-cookieconsent-component/src/scss/cookie-consent-transition";
@@ -64,7 +64,7 @@ Do you like my theme but not the colors or paddings, ...?
 ```scss
 // overwrite variables
 $cookieconstent-padding: 1rem;
-$cookieconstent-spacers: .7rem;
+$cookieconstent-space: .7rem;
 $cookieconstent-compliance-padding: .5rem 2rem;
 // find more variables in /src/scss/_cookie-consent-variables.scss
 
@@ -75,7 +75,7 @@ $cookieconstent-compliance-padding: .5rem 2rem;
 
 |Prop|Type|Required|Default|Description
 |-|-|-|-|-|
-|transition|String|false|cookie-consent-transition|Use your own transition
+|transition|String|false|cookie-consent-transition|Transition name
 |message|String|false|This website uses...|Main message
 |linkLabel|String|false|Learn more|Link label
 |buttonLabel|String|false|Got it!|Button label
