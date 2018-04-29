@@ -103,7 +103,7 @@
         return !this.getCookie(this.cookieName)
       }
     },
-    created() {
+    beforeMount() {
       this.show = this.cookie
     },
     methods: {
