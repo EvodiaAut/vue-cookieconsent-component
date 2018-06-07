@@ -80,7 +80,8 @@ $cookieconstent-compliance-padding: .5rem 2rem;
 |linkLabel|String|false|Learn more|Link label
 |buttonLabel|String|false|Got it!|Button label
 |href|String|false|http://cookiesandyou.com|Target link
-|target|String|false|_blank|New window?
+|target|String|false|_blank|New window
+|rel|String|false|noopener|Referrer Policy
 |cookieName|String|false|cookieconsent_status|Cookie name
 |cookiePath|String|false|/|Cookie path
 |cookieDomain|String|false|''|Cookie domain
