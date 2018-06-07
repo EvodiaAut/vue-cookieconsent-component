@@ -18,7 +18,7 @@
             name="link"
           >
             <a
-              v-bind="{ href,target, rel }"
+              v-bind="{ href, target, rel }"
               class="cookie-consent-link"
               role="button"
             >
