@@ -18,7 +18,7 @@
             name="link"
           >
             <a
-              v-bind="{ href,target }"
+              v-bind="{ href,target, rel }"
               class="cookie-consent-link"
               role="button"
             >
@@ -74,6 +74,10 @@
       target: {
         type: String,
         default: '_blank'
+      },
+      rel: {
+        type: String,
+        default: 'noopener'
       },
       // cookie
       cookieName: {
